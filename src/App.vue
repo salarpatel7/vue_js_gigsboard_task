@@ -1,5 +1,5 @@
 <template>
-  <div class="flex h-screen bg-[#f3f4f6]">
+  <div class="flex h-screen bg-[#f3f4f6] overflow-hidden">
     <!-- Sidebar -->
     <MySidebar :collapsed="collapsed" @toggle-sidebar="toggleSidebar" />
 
@@ -9,7 +9,7 @@
       <MyNavbar :collapsed="collapsed" />
 
       <!-- Page Content -->
-      <div class="flex-1 p-6 overflow-y-auto bg-[#f3f4f6]">
+      <div class="flex-1 p-6 overflow-hidden bg-[#f3f4f6]">
         <MyHome />
       </div>
     </div>

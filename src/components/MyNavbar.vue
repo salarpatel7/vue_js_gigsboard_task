@@ -41,7 +41,7 @@
             <span class="text-gray-600">Aman</span>
             <span class="text-sm text-gray-400">Customer</span>
           </div>
-          <i class="fas fa-chevron-down text-gray-500"></i>
+          <i class="fas fa-chevron-up text-white border rounded-full p-1 border-purple-600 bg-purple-600 cursor-pointer"></i>
         </div>
       </div>
     </div>
