@@ -15,19 +15,19 @@
       <div class="flex space-x-4">
         <button
           @click="currentTab = 'Jobs'"
-          :class="['cursor-pointer p-2 border rounded font-semibold', currentTab === 'Jobs' ? 'bg-purple-100 text-purple-600' : 'border-purple-600 text-gray-500']"
+          :class="['cursor-pointer p-2 px-8 border rounded font-semibold', currentTab === 'Jobs' ? 'bg-purple-100 text-purple-600' : 'border-purple-600 text-gray-500']"
         >
           Jobs
         </button>
         <button
           @click="currentTab = 'Contracts'"
-          :class="['cursor-pointer p-2 border rounded font-semibold', currentTab === 'Contracts' ? 'bg-purple-100 text-purple-600' : 'border-purple-600 text-gray-500']"
+          :class="['cursor-pointer p-2 px-8 border rounded font-semibold', currentTab === 'Contracts' ? 'bg-purple-100 text-purple-600' : 'border-purple-600 text-gray-500']"
         >
           Contracts
         </button>
         <button
           @click="currentTab = 'Projects'"
-          :class="['cursor-pointer p-2 border rounded font-semibold', currentTab === 'Projects' ? 'bg-purple-100 text-purple-600' : 'border-purple-600 text-gray-500']"
+          :class="['cursor-pointer p-2 px-8 border rounded font-semibold', currentTab === 'Projects' ? 'bg-purple-100 text-purple-600' : 'border-purple-600 text-gray-500']"
         >
           Projects
         </button>
